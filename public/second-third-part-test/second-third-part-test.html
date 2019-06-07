@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="second-third-part-test.css">
+  <meta charset="UTF-8">
+  <title>second and third part of the test</title>
+</head>
+<body>
+<h1>Viktor Andreichenko </h1>
+<h2>PART 2: (Output: Written answers in a text file)</h2>
+<h3>INSTRUCTIONS:</h3>
+<h4>THE FOLLOWING QUESTIONS ARE TAKEN FROM THE INTERNET.</h4>
+<h4>PLEASE DO NOT !!! COPY AND PASTE EVEN ONE SENTENCE FROM ANY OF THE INTERNET ANSWERS. YOU HAVE TO EXPLAIN IT WITH YOUR OWN WORDS. IF THE CLIENT WILL FIND THAT YOU COPIED, YOU MIGHT FAIL.</h4>
+
+<p class="question">1. Explain the following expressions and the main differences between them.
+How does the “new” keyword affect the function call?
+a. var person = Person();
+b. var person = new Person();</p>
+<p class="answer">Function created without “new”, returns “return” or nothing if function not clear and mutates global variables.
+The function created through the “new” creates a new instance of the object with this. Returns an object or this.
+In this, you can encapsulate local properties and methods. You can create many instances with different scope inside.</p>
+<p class="question">2. What are the pros and cons of using promises instead of callbacks?</p>
+<p class="answer"> If you want to listen the event in child component it easy to use callback in parent component. I you need to synchronise flow and don`t dive in callback hell, use promises.</p>
+<p class="question">3. What’s the difference between a variable that is: “null”, “undefined” or “undeclared”?</p>
+<p class="answer">If you call the variable “a” before “var a” or “let, const a”, then the computer does not reserve memory for this “a” and has “undeclared”. After, “var a” this “a” is exists in memory, but still “undefined”. This is the state before the variable value is initialized. A “null” value that you can use for a variable if you need to show that this “0” value is not a random state.</p>
+<p class="question">5. What tools would you use to find a performance bug in your code?</p>
+<p class="answer">Browser console tools and i know React Developer Tool and Redux Developer Tool </p>
+<p class="question">6. Explain the same-origin policy with regards to JavaScript.</p>
+<p class="answer">If the data source for the page is in the same domain as the page, then this is safe data.</p>
+<p class="question">7. Specify a GitHub link for at least one project that will be able to review a code that was written by you.</p>
+<a href="https://github.com/anvictor">GitHub link</a>
+<h2>PART 3: (Output: a simple javascript file with the function/s code)</h2>
+
+ <img src="third.png" alt="third question">
+<div id="main">
+  <input id="inp" type="number" placeholder="input positive integer"> <h1 id="answer"></h1>
+</div>
+<script src="second-third-part-test.js"></script>
+</body>
+</html>

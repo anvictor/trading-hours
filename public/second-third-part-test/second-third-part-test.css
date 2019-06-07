@@ -1,0 +1,21 @@
+body{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+h2{
+  color: red;
+}
+.answer{
+  color: blue;
+}
+img{
+  width: 500px;
+}
+#main{
+  margin: auto;
+  padding: 25px;
+  width: 500px;
+  border: solid 1px blue;
+  display: flex;
+  justify-content: space-between;
+}
